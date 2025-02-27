@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_flutter/widgets/square.dart';
-import 'package:widgets_flutter/widgets/circle.dart';
+import 'package:widgets_flutter/widgets/4.2square.dart';
+import 'package:widgets_flutter/widgets/4.1circle.dart';
 
 class MyListviewbuilder extends StatelessWidget {
   final List _posts = ['post1', 'post2', 'post3', 'post4', 'post5'];
