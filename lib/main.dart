@@ -10,7 +10,10 @@ import 'package:flutter/material.dart';
 //import 'package:widgets_flutter/widgets/7gridview.dart';
 //import 'package:widgets_flutter/widgets/9bottombar.dart';
 //import 'package:widgets_flutter/widgets/9c_AppBar.dart';
-import 'package:widgets_flutter/widgets/9d.drawer.dart';
+//import 'package:widgets_flutter/widgets/9d.drawer.dart';
+//import 'package:widgets_flutter/widgets/9e.sliverbar.dart';
+//import 'package:widgets_flutter/widgets/9f.tabbar.dart';
+import 'package:widgets_flutter/widgets/9g.animtedcontainer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Mydrawer(), // Ana ekran sayfasını göster
+      home: MyWidget9g(), // Ana ekran sayfasını göster
     );
   }
 }

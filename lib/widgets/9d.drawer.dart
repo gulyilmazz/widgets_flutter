@@ -10,8 +10,11 @@ class Mydrawer extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(backgroundColor: const Color.fromARGB(255, 161, 24, 24)),
       drawer: Drawer(
+        //Yan menü çekmecesini oluşturur
         child: ListView(
+          //İçindeki öğeleri dikey bir liste şeklinde sıralar.
           children: [
+            //Listview içindeki tüm ögeler bu liste içine eklenir
             DrawerHeader(
               child: Center(
                 child: Text('L O G O', style: TextStyle(fontSize: 35)),
@@ -33,6 +36,7 @@ class Mydrawer extends StatelessWidget {
                 Navigator.of(
                   context,
                 ).push(MaterialPageRoute(builder: (context) => UserMessage()));
+                Navigator.pop(context); // Drawer'ı kapat
               },
             ),
           ],
