@@ -26,4 +26,4 @@ Bu repo, Flutter öğrenme sürecimde kullandığım ve denediğim widget’lar�
 20. **Timer:** Zamanlayıcı.
 21. **TextField:** Metin girişi.
 22. **Cool Animated Widget:** Özel animasyon efektleri için denemeler.
-23. devamı gelcek..
+23. devamı gelecek..
