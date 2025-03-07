@@ -1,7 +1,7 @@
 # widgets_flutter
 
 
-## Getting Started
+## Genel bilgi özeti
 Widget'lar:
 
 MaterialApp (Dolaylı): Bu kodda doğrudan MaterialApp yok, ancak Scaffold ve MaterialPageRoute gibi Material Design widget'ları kullanıldığı için, bu kodun bir MaterialApp widget'ı içinde yer aldığını varsayabiliriz. MaterialApp uygulamanın temel yapısını oluşturur ve temayı, rotaları ve diğer genel ayarları tanımlar.
