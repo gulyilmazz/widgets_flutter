@@ -1,45 +1,29 @@
-# widgets_flutter
+# 📚 Flutter Öğrenme Notları ve Widget Uygulamaları
 
+Bu repo, Flutter öğrenme sürecimde kullandığım ve denediğim widget’ları içeren bir çalışma alanıdır. Bu dosyalar bir projeye ait değil, tamamen öğrenmek ve pratik yapmak amacıyla oluşturulmuştur. Her bir dosyada farklı bir widget’ı denedim ve bu widget’ların temel özelliklerini öğrenmeye çalıştım.
 
-## Genel bilgi özeti
-Widget'lar:
+## ✨ Kullanılan Widget'lar ve Kısa Açıklamaları
 
-MaterialApp (Dolaylı): Bu kodda doğrudan MaterialApp yok, ancak Scaffold ve MaterialPageRoute gibi Material Design widget'ları kullanıldığı için, bu kodun bir MaterialApp widget'ı içinde yer aldığını varsayabiliriz. MaterialApp uygulamanın temel yapısını oluşturur ve temayı, rotaları ve diğer genel ayarları tanımlar.
-Scaffold: Temel bir ekran yapısı oluşturur. Uygulama çubuğu (AppBar), gövde (body), alt gezinme çubuğu (bottomNavigationBar) gibi temel bileşenleri içerir.
-SafeArea: İçeriği cihazın güvenli alanlarına (durum çubuğu, çentik vb.) sığdırır.
-SingleChildScrollView: Kaydırılabilir bir içerik alanı oluşturur.
-Padding: Widget'ların etrafına boşluk ekler.
-ConstrainedBox: Bir widget'ın boyutunu sınırlar.
-Container: Widget'ları gruplar ve stil uygular (arka plan rengi, kenarlık, gradyan vb.).
-Column: Widget'ları dikey olarak sıralar.
-TextField: Kullanıcıdan metin girişi alır.
-ElevatedButton: Yükseltilmiş bir düğme oluşturur.
-TextButton: Metin tabanlı bir düğme oluşturur.
-Text: Ekranda metin görüntüler.
-SizedBox: Widget'lar arasında boşluk oluşturur.
-Image.asset: Yerel varlıklardan (assets) bir resim (bu durumda bir GIF) görüntüler.
-GestureDetector: Dokunma olaylarını algılar.
-Icon: Ekranda bir ikon gösterir.
-OutlineInputBorder: TextField'lar için kenarlık oluşturur.
-LinearGradient: Container widget'ının arka planına gradyan uygular.
-MaterialPageRoute: Sayfalar arası geçişler için kullanılır.
-Temel Flutter Kavramları:
-
-Widget Ağacı: Flutter'da her şey bir widget'tır ve widget'lar bir ağaç yapısı içinde düzenlenir.
-Durum Yönetimi (StatefulWidget): _LoginScreenState sınıfı, LoginScreen widget'ının durumunu yönetir. setState() yöntemi, widget'ın durumunu günceller ve yeniden çizilmesini sağlar.
-Navigasyon: Navigator.push() ve Navigator.pushReplacement() yöntemleri, sayfalar arası geçişleri yönetir.
-Giriş İşleme: TextField widget'ları ve TextEditingController sınıfları, kullanıcı girişlerini işler.
-Layout (Düzen): Column, Padding, SizedBox gibi widget'lar, widget'ların düzenini kontrol eder.
-Temalar ve Stiller: TextStyle, InputDecoration, ElevatedButtonStyle gibi sınıflar, widget'ların görünümünü özelleştirir.
-Varlık Yönetimi (Asset Management): pubspec.yaml dosyası ve Image.asset widget'ı, yerel varlıkların (resimler, GIF'ler vb.) yönetilmesini sağlar.
-Odak Yönetimi (Focus Management): FocusNode ve WidgetsBinding.instance.focusManager.primaryFocus?.unfocus() klavye kapatma ve odak yönetimi için kullanılır.
-Medya Sorguları (Media Queries): MediaQuery.of(context) ile ekran boyutları ve diğer cihaz özelliklerine erişim sağlanır.
-
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# widgets_flutter" 
+1. **Container:** Temel yapı taşı. Kenarlık, padding, margin ve arka plan rengi gibi stil ayarları yapılır.
+2. **Expanded:** Row veya Column içinde yer kaplamak için kullanılır.
+3. **Column & Row:** Dikey ve yatay hizalamalar için kullanılır.
+4. **Circle:** Yuvarlak yapı oluşturmak için.
+5. **Square:** Kare yapılar için sabit boyut verilerek oluşturulur.
+6. **ListView.builder:** Uzun listeleri performanslı göstermek için kullanılır.
+7. **ClipRRect:** Köşeleri yuvarlamak için.
+8. **Image:** Resim göstermek için.
+9. **GridView:** Izgara yapısında listeleme sağlar.
+10. **GestureDetector:** Dokunma ve hareketleri algılar.
+11. **BottomNavigationBar:** Alt menü barı.
+12. **AppBar:** Üst başlık barı.
+13. **Drawer:** Yan menü paneli.
+14. **SliverAppBar:** Kaydırılabilir üst bar.
+15. **TabBar:** Sekmeli geçiş sağlar.
+16. **AnimatedContainer:** Değişiklikleri animasyonlu gösterir.
+17. **MediaQuery:** Ekran boyutu ve cihaz bilgilerini alır.
+18. **AlertDialog:** Bilgilendirme veya onay diyalog kutusu.
+19. **TextStyle:** Yazı tipi ve stil ayarları.
+20. **Timer:** Zamanlayıcı.
+21. **TextField:** Metin girişi.
+22. **Cool Animated Widget:** Özel animasyon efektleri için denemeler.
+23. devamı gelcek..
