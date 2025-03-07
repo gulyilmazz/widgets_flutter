@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+
+//import 'package:widgets_flutter/widgets/9m.input.dart';
+
+//import 'package:widgets_flutter/widgets/8gesture_detector.dart';
 //import 'package:widgets_flutter/widgets/8gesture_detector.dart';
 //import 'package:widgets_flutter/9bottom_naw.dart';
 //import 'package:widgets_flutter/widgets/9bottombar.dart';
@@ -13,10 +17,16 @@ import 'package:flutter/material.dart';
 //import 'package:widgets_flutter/widgets/9d.drawer.dart';
 //import 'package:widgets_flutter/widgets/9e.sliverbar.dart';
 //import 'package:widgets_flutter/widgets/9f.tabbar.dart';
-import 'package:widgets_flutter/widgets/9g.animtedcontainer.dart';
+//import 'package:widgets_flutter/widgets/9g.animtedcontainer.dart';
+//import 'package:widgets_flutter/widgets/9h.media_query.dart';
+//import 'package:widgets_flutter/widgets/9i.alert.dart';
+//import 'package:widgets_flutter/widgets/9l.test_style.dart';
+//import 'package:widgets_flutter/widgets/9m.timer.dart';
+//import 'package:widgets_flutter/widgets/9m.input.dart';
+import 'package:widgets_flutter/widgets/9n.coolanimated.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -26,7 +36,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyWidget9g(), // Ana ekran sayfasını göster
+      home: MyWidget9n(), // Ana ekran sayfasını göster
     );
   }
 }
